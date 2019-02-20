@@ -10,11 +10,23 @@
       img {
         max-width: 100%;
         vertical-align: top;
+        /*display: none;*/
       }
+      img#responsive {
+        display:none;
+}
+      @media screen and (max-width: 768px) {
+      img#responsive {
+        display:block;
+      }
+      }
+
+
     </style>
     <title>Invie</title>
   </head>
   <body>
+    <img src="imagenes/invie-responsive.png" alt="" id="responsive">
     <img src="imagenes/cabeza.jpg" alt="">
     <img src="imagenes/clasica.jpg" alt="">
       <img src="imagenes/hero.jpg" alt="">
